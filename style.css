@@ -32,7 +32,8 @@ section{
     color: orange;
 }
 .half-width img{
-    width: 110%;
+    max-width: 110%;
+    height: auto;
 }
 
 .link-button{
@@ -65,11 +66,13 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
+    height: auto;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    height: auto;
 }
 
 footer p{
